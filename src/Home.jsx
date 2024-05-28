@@ -8,15 +8,14 @@ const Home = () => {
 
   const divStyle = {
     backgroundImage: `url(${imgSrc})`,
-    backgroundSize: "cover", // Adjust as needed
-    backgroundPosition: "center", // Adjust as needed
-    height: "100vh", // Adjust as needed
-    width: "100%", // Adjust as needed
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    height: "100vh",
+    width: "100%",
   };
 
   return (
-    <div>
-      <div style={divStyle}></div>
+    <div style={divStyle}>
       <p>This is the home page</p>
       <Snacks />
     </div>

@@ -1,5 +1,9 @@
-import { useState } from "react";
-import VendingMachine from "./VendingMachine";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Home";
+import Soda from "./Soda";
+import Chips from "./Chips";
+import Sardines from "./Sardines";
+
 function App() {
   return (
     <div>
